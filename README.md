@@ -1,71 +1,45 @@
-# Getting Started with Create React App
+# User List Management App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+This is a React application designed to display and manage a list of users. The app provides features such as searching users by name or teacher ID, filtering users by department and status, and paginating the user list with a custom pagination logic.
 
-## Available Scripts
+## Features
+- Display a list of users with details including name, teacher ID, department, number of students, and status.
+- Search users by name or teacher ID.
+- Filter users by department (Finance, Engineer, Arts) and status (Active, Inactive, Blocked, Suspended).
+- Pagination with 10 users on the first page and 5 users on subsequent pages.
 
-In the project directory, you can run:
+## Installation
+1. Clone the repository.
+2. Navigate to the project directory.
+3. Run the following command to install dependencies:
+   ```
+   npm install
+   ```
 
-### `npm start`
+## Running the Application
+To start the application locally, run:
+```
+npm start
+```
+This will launch the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
+- React
+- JavaScript (ES6+)
+- CSS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Folder Structure
+- `src/` - Contains the source code of the application.
+  - `components/` - Contains React components such as Sidebar, TopBar, FilterBar, UserTable, Pagination, and their styles.
+  - `App.js` - Main application component managing state and rendering UI.
+  - `index.js` - Entry point of the React application.
+- `public/` - Contains static assets and the HTML template.
 
-### `npm test`
+## Usage
+- Use the search bar at the top to search users by name or teacher ID.
+- Use the filter options to narrow down users by department and status.
+- Navigate through pages using the pagination controls at the bottom of the user list.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# user-list-task
+## License
+This project does not specify a license.
